@@ -1,9 +1,9 @@
 # Neural Network from Scratch – Forward & Backward Pass with NumPy
 <br>
-Implementing Forward Pass and Backpropagation using Numpy, Project i learnt from WorldQuantUni
+Implementing Forward Pass and Backpropagation using Numpy
 <br>
 <br>
-Goal: is to demonstrate a solid grasp of backpropagation, gradient descent, and the chain rule by implementing a fully functional neural network using only NumPy (without TensorFlow or PyTorch).
+Goal: Is to demonstrate a solid grasp of backpropagation, gradient descent, and the chain rule by implementing a fully functional neural network using only NumPy (without TensorFlow or PyTorch).
 
 <br>
 <br>
