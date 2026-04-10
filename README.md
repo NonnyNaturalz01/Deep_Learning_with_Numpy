@@ -57,7 +57,6 @@ L = ½ · (ŷ - y)²
 <b>Where:</b><br>
 y = true target value<br>
 ŷ = predicted value<br>
-<br>
 ½ = simplifies derivative 
 <br>
 <br>
