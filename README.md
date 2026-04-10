@@ -10,7 +10,7 @@ Goal: Is to demonstrate a solid grasp of backpropagation, gradient descent, and 
 
 <h2><b>Network Architecture:</b></h2>
 Input layer: 2 neurons
-<br><br>
+<br>
 Hidden layer: 3 neurons (ReLU activation)
 <br>
 Output layer: 1 neuron (linear, no activation)
