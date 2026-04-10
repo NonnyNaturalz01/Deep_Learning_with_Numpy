@@ -8,7 +8,7 @@ Goal: Is to demonstrate a solid grasp of backpropagation, gradient descent, and 
 <br>
 <br>
 
-<h2><b>Network Architecture:</b></h2>h2>
+<h2><b>Network Architecture:</b></h2>
 <br>
 Input layer: 2 neurons
 <br>
