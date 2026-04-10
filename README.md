@@ -73,7 +73,7 @@ If loss L depends on ŷ, and ŷ depends on W₂, then:<br>
 
 <br><br>
 
-<h2><b><Gradient Descent Update</b></h2><br>
+<h2><b>Gradient Descent Update</b></h2><br>
 Once we have gradients, update weights to minimize loss.
 <br><br>
 Equation:<br>
@@ -81,37 +81,3 @@ W_new = W_old - learning_rate · ∂L/∂W
 
 <br><br>
 
-<h2><b>Flow:</b></h2>
-Input X 
-    │
-    ▼
-┌─────────────────────────────────┐
-│  Z₁ = X @ W₁ + b₁               │  ← Linear (2→3)
-│  H = ReLU(Z₁)                   │  ← Non-linear activation
-└─────────────────────────────────┘
-    │
-    ▼
-┌─────────────────────────────────┐
-│  ŷ = H @ W₂ + b₂                │  ← Linear (3→1)
-│  (No activation on output)      │
-└─────────────────────────────────┘
-    │
-    ▼
-┌─────────────────────────────────┐
-│  Loss = ½ · (ŷ - y)²            │  ← MSE
-└─────────────────────────────────┘
-    │
-    ▼
-┌─────────────────────────────────┐
-│  Backpropagation (Chain Rule)   │
-│                                 │
-└─────────────────────────────────┘
-    │
-    ▼
-┌─────────────────────────────────┐
-│  Gradient Descent Update        │
-│  W ← W - α · ∂L/∂W              │
-└─────────────────────────────────┘
-    │
-    ▼
-  Repeat for N epochs
