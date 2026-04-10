@@ -9,7 +9,6 @@ Goal: Is to demonstrate a solid grasp of backpropagation, gradient descent, and 
 <br>
 
 <h2><b>Network Architecture:</b></h2>
-<br>
 Input layer: 2 neurons
 <br><br>
 Hidden layer: 3 neurons (ReLU activation)
@@ -23,7 +22,7 @@ Output layer: 1 neuron (linear, no activation)
 <br>
 <b> 1. Forward Pass </b> <br>
 The forward pass computes the network's output by passing input data through each layer.
-<br>
+<br><br>
 <b>Hidden layer:</b>
 <br>
 Z₁ = X · W₁ + b₁
