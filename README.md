@@ -4,7 +4,7 @@ Implementing Forward Pass and Backpropagation using Numpy
 <br>
 <br>
 Goal: Is to demonstrate a solid grasp of backpropagation, gradient descent, and the chain rule by implementing a fully functional neural network using only NumPy (without TensorFlow or PyTorch).
-
+ 
 <br>
 <br>
 
