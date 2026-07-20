@@ -52,8 +52,6 @@ Measures how wrong the prediction is.
 
 Equation:
 L = ½ · (ŷ - y)²
-
-
 <b>Where:</b><br>
 y = true target value<br>
 ŷ = predicted value<br>
