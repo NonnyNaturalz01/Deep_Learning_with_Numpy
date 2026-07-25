@@ -70,7 +70,6 @@ If loss L depends on ŷ, and ŷ depends on W₂, then:<br>
 ∂L/∂W₂ = (∂L/∂ŷ) · (∂ŷ/∂W₂)
 
 <br><br>
-
 <h2><b>Gradient Descent Update</b></h2><br>
 Once we have gradients, update weights to minimize loss.
 <br><br>
